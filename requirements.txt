@@ -13,3 +13,5 @@ Sphinx==1.7.5
 tox-pyenv==1.1.0
 tox==3.25.1
 twine==3.8.0
+filelock>=3.20.3 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
